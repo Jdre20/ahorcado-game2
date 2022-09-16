@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego del ahorcado</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <h2 class="texto-vertical-3">Juego del ahorcado</h2>
+  </header>
+
+  <main>
+    <div class="contenedor">
+
+      <div class="ahorcado">
+        <img id="hombre" class="hombre" title="EL Ahorcado" />
+      </div>
+
+      <div class="msg" id="resultado">
+        <span></span>
+      </div>
+
+      <div class="correctas">
+        <!-- <span class="letra adivinada">A</span>
+        <span class="letra adivinada">L</span>
+        <span class="letra adivinada"></span>
+        <span class="letra adivinada"></span>
+        <span class="letra adivinada">A</span> -->
+      </div>
+      <div class="incorrectas">
+        <!-- <span class="letra fallada">B</span>
+        <span class="letra fallada">J</span>
+        <span class="letra fallada">K</span>
+        <span class="letra fallada">C</span> -->
+      </div>
+
+      <div class="boton">
+        <input type="button" class="button" value="nuevo juego" onclick="nuevojuego()">
+        <input type="button" class="button" value="agregar palabra" onclick="nuevapalabra()">
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <p>Jhovanny Huanca | Alura Challenge</p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>

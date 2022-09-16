@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik Wet Paint', cursive, Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #DFE0DF;
+  color: #2F4858;
+}
+
+html{
+  font-size: 16px;
+}
+
+header{
+  text-align: center;
+  text-transform: uppercase;
+  padding: .5rem;
+  font-size: 1.2rem;
+  color: #f1860c;
+  background-color: #2F4858;
+  letter-spacing: .5rem;
+}
+
+.boton{
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.button {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 10px 20px;
+  transition: 0.5s;
+  background: transparent;
+  border: 2px solid #2F4858;
+  border-radius: 20px 100px;
+  margin: 1rem  .5rem;
+  font-weight: bold;
+  color: #2F4858;
+}
+
+.button:hover {
+  background: #F5A64A;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.no-display{
+  display: none;
+}
+
+.ahorcado{
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+  margin: 1rem 0;
+  height: 16.75rem;
+}
+
+.hombre{
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+}
+
+.correctas{
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.letra{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-orientation: sideways-right;
+}
+
+.adivinada{
+  width: 4rem;
+  height: 4rem;
+  border-bottom: 3px solid #2F4858;
+  margin-left: 0.4rem;
+  line-height: 4.5rem;
+}
+
+.incorrectas{
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1.5rem 0;
+  height: 1rem;
+}
+
+.fallada{
+  margin-left: 1rem;
+}
+
+.msg{
+  height: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: .4rem;
+  font-size: 1.5rem;
+  color: #f1860c;
+  letter-spacing: .3rem;
+}
+
+footer{
+  margin-top: 1rem;
+  text-align: center;
+  padding: .4rem;
+  border-top: 1px solid #2F4858;
+}
